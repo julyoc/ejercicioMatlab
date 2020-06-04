@@ -1,3 +1,4 @@
+% @function determinarValor
 % @param filename {string} nombre del archivo de la imagen
 % @param value {any} valor de X que se buscara
 % @param Xmin {any} valor minimo que puede tomar X
