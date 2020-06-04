@@ -4,7 +4,6 @@ function[z, leng] = buscarValor(filename, x, domMin, domMax)
         len = size(M);
         leng = len(1);
         x = round(((x-domMin)*len(2))/(domMax-domMin));
-        disp(x);
         if x <= 1
             x=1;
         end
